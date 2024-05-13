@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>galeria</title>
+    <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+    <div class="contenedor"> 
+
+    <header>
+       <div class="logo">
+
+        <h1 >Bienvenido</h1>
+		<div id="usuario"></div>
+       </div>
+         <form action="">
+          <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+         </form>
+         <div class="categorias" id="categorias">
+          <a href="#" class="activo" style="color: azure;">Todos</a>
+          <a href="#">Animales</a>
+          <a href="#">motos</a>
+          <a href="#">Camionetas</a>
+
+          </div>
+    </header>
+
+    
+    <section class="grid" id="grid">
+			<div class="item" 
+				 data-categoria="Animales"
+				 data-etiquetas="Animales en la naturaleza"
+				 data-descripcion="1.- El oso panda es uno de los animales mas lindos del mundo."
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/oso panda.jpg" width="200px" height="200px">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="motos"
+				 data-etiquetas="crf"
+				 data-descripcion="2.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/crf.jpeg" width="200px" height="200px" >
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="Camionetas"
+				 data-etiquetas="las mejores camionetas"
+				 data-descripcion="3.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/tundra.jpg" width="200px" height="200px">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="tigre"
+				 data-descripcion="4.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/descarga.jpg" width="200px" height="200px">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="motocros"
+				 data-etiquetas="yz yamaha"
+				 data-descripcion="5.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/Yamaha-YZ450F-2023.webp" width="200px" height="200px">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="camionetas"
+				 data-etiquetas="raw trx"
+				 data-descripcion="6.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/TRX.jpg" width="200px" height="200px">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="animales"
+				 data-etiquetas="ave"
+				 data-descripcion="7.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/ave.jpg" width="200px" height="200px">
+				</div>
+			</div>
+
+			<div class="item" 
+				 data-categoria="motocros"
+				 data-etiquetas="kawazaki"
+				 data-descripcion="8.- Lorem ipsum dolor sit amet consectetur."
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/kawasaki.jpg" width="200px" height="200px">
+				</div>
+			</div>
+
+			<div class="item"
+				 data-categoria="camionetas"
+				 data-etiquetas="ford raptor"
+				 data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.
+				 	"
+			>
+				<div class="item-contenido">
+					<img src="imagenes/img/ford.jpeg" width="200px" height="200px">
+				</div>
+			</div>
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.facebook.com" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="http://www.instagram.com" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			
+		</footer>
+	</div>
+	
+		
+	</body>
+	</html>
+           <input type="file"  accept="image/*">
+		   
+		   
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="js/index2.js"></script>
+</html>
